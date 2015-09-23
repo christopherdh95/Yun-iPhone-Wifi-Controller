@@ -8,6 +8,7 @@ There are three main components of communication in this project: the OSC app on
 All the code should be modified with the OSC layout you use in both the Arduino and Python files.  TouchOSC has a very simple and nice IDE where you can add toggles, sliders, and whatnot.  Your layouts can be easily uploaded to your iPhone.  Right now I have two toggles and a slider included in the code.  
 
 Instillation Instructions:
+
 1. Format Yún and SD card for Yún.  Look up how to do this if you've never down it before.  The SD card should contain a downloaded copy of the arduino OSC library (https://github.com/CNMAT/OSC) and the piece of python code above. The code should be placed in an apporpiate file path like sda1/Arduino/www/python within the SD card. This is probably the trickiest part to get working.  Make sure you change the IP's in the .py file to those of your Yún and iPhone.  
 2. Create a touchOSC format using touchOSC's IDE.  Perhaps this should be done before the first step.
 3. Connect the Arduino Yún to your computer and upload the Arduino sketch.  
