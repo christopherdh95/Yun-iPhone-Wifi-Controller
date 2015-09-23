@@ -5,7 +5,7 @@ Sorry if this instillation is unclear and hard to follow.  I'm very busy with ot
 
 There are three main components of communication in this project: the OSC app on an iPhone, the linux chip (Atheros AR9331) on the Yún, and the ATmega32u4 chip which recieves signal from the Atheros chip per Arduino's bridge communication protocal.  First, OSC communication is sent from the TouchOSC app (http://hexler.net/software/touchosc) on a phone to the Atheros chip on the Arduino Yún over a local wifi networks.  This communication is recieved by the Atheros chip and the piece of python code above.  The piece of arduino code above then takes the signal from the Atheros chip over the Yun's bridge and executes them.
 
-All the code should be modified with the OSC layout you use in both the Arduino and Python files.  TouchOSC has a very simple and nice IDE where you can add toggles, sliders, and whatnot.  Your layouts can be easily uploaded to your iPhone.  Right now I have two toggles and a slider included in the code.  
+All the code should be modified with the OSC layout you use in both the Arduino and Python files.  TouchOSC has a very intuitive IDE where you can add toggles, sliders, and whatnot.  Your layouts can be easily uploaded to your iPhone.  Right now I have two toggles and a slider included in the code.  
 
 Instillation Instructions:
 
