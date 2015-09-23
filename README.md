@@ -9,7 +9,7 @@ All the code should be modified with the OSC layout you use in both the Arduino 
 
 Instillation Instructions:
 1. Format Yún and SD card for Yún.  Look up how to do this if you've never down it before.  The SD card should contain a downloaded copy of the arduino OSC library (https://github.com/CNMAT/OSC) and the piece of python code above. The code should be placed in an apporpiate file path like sda1/Arduino/www/python within the SD card. This is probably the trickiest part to get working.  Make sure you change the IP's in the .py file to those of your Yún and iPhone.  
-2. Create a touchOSC format using touchOSC's IDE.  Perhaps this should be done before the first step..
+2. Create a touchOSC format using touchOSC's IDE.  Perhaps this should be done before the first step.
 3. Connect the Arduino Yún to your computer and upload the Arduino sketch.  
 4. Connect components to your Arduino to the respective ports assinged in the sketch.  Feel free to take away, change, and mess around with it.  I started with hooking up a 5v relay to control a string of LED's in my room.
 5. ssh to the Yún from a terminal.  Find the python file and run it.  Expect it to fail and go from there!  
