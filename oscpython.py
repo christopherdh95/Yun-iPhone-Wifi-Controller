@@ -10,9 +10,9 @@ from tcp import TCPJSONClient
 													 
 
 json = TCPJSONClient('127.0.0.1', 5700)
-server = OSCServer( ("192.168.0.237", 8000) )#change to your yun's ip here
+server = OSCServer( (">>yun ip here<<", 8000) )#change to your yun's ip here
 client = OSCClient()
-client.connect( ("192.168.0.244", 9000) )#change to your phone's ip
+client.connect( (">>phone ip here<<", 9000) )#change to your phone's ip
 
 
 def handle_timeout(self):
